@@ -345,7 +345,7 @@ svg:hover {
 .grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-columns: repeat(3, minmax(min-content, 300px));
   grid-gap: 0.1rem;
 }
 
