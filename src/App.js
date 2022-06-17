@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Header from "./Header.jsx";
+import BodyProfile from "./Body-Profile.jsx";
+import Footer from "./footer.jsx";
+import React from "react";
 
-function App() {
+//renderiza la estructura (el perfil) de la pagina XD
+export default function Profile() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header />
+      <BodyProfile />
+      <Footer />
+    </React.Fragment>
   );
 }
 
-export default App;
+//esto no hace nada es codigo obsoleto
+/*export function Main() {
+  return (
+    <React.Fragment>
+      <Header />
+      <Footer />
+    </React.Fragment>
+  );
+}*/
