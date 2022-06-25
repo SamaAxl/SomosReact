@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SomosReact/static/css/main.b57e32b2.css",
+    "main.js": "/SomosReact/static/js/main.a86482f7.js",
+    "index.html": "/SomosReact/index.html",
+    "main.b57e32b2.css.map": "/SomosReact/static/css/main.b57e32b2.css.map",
+    "main.a86482f7.js.map": "/SomosReact/static/js/main.a86482f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b57e32b2.css",
+    "static/js/main.a86482f7.js"
+  ]
+}
